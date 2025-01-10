@@ -58,3 +58,20 @@ Before running the app, ensure you have the following installed:
 4. Start the backend server:
     ```bash
     npm start
+
+### Frontend Setup
+1. Navigate to the frontend directory:
+
+   ```bash
+   cd ethnicokay/frontend
+2. Install frontend dependencies:
+   ```bash
+   npm install
+3. Update API endpoint URLs in your frontend code to match the backend API.
+4. Run the React Native app on an emulator or real device:
+   For iOS:
+      ```bash
+      npx react-native run-ios
+   For Android:
+      ```bash
+      npx react-native run-android
